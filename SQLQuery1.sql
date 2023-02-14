@@ -1,5 +1,5 @@
 /*
-Exploring Data from Covid 19, vaccinations and deaths
+Exploring data from Covid 19, looking at infection status and deaths globally
 
 Skills used: Aggregate Functions, Joins, Temp Tables, Creating Views, Converting Data Type
 /*
@@ -11,7 +11,7 @@ FROM Covid_Portfolio_Project..Covid_Deaths
 WHERE continent is not null
 ORDER BY 3,4
 
---Selecting data that we will be starting with
+--Selecting data to start analysis
 
 SELECT location, date, total_cases, new_cases, total_deaths, population
 FROM Covid_Portfolio_Project..Covid_Deaths
