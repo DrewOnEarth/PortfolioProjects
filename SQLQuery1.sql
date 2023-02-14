@@ -6,7 +6,7 @@ Skills used: Aggregate Functions, Joins, Temp Tables, Creating Views, Converting
 
 --Viewing Data in the Covid_Deaths dataset
 
-SElECT *
+SELECT *
 FROM Covid_Portfolio_Project..Covid_Deaths
 WHERE continent is not null
 ORDER BY 3,4
